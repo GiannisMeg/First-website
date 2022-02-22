@@ -1,0 +1,148 @@
+html {
+	font-family: "Overpass Mono", monospace;
+	box-sizing: border-box;
+	background-color: rgb(36, 85, 82);
+}
+
+.header {
+	background-color: rgb(180, 3, 3);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgb(230, 231, 233);
+	margin-bottom: 20px;
+}
+
+.header:hover {
+	border: rgb(223, 190, 8) solid 2px;
+	background-color: chartreuse;
+	color: #333;
+}
+
+body {
+	font-size: 18px;
+	color: whitesmoke;
+	margin: 0;
+	border: 20px solid #333;
+	outline: #333;
+	outline-offset: 5px;
+}
+
+footer {
+	margin-left: 40px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: whitesmoke;
+	background: rgb(51, 51, 51, 0.8);
+	border-radius: 3px;
+	padding: 15px;
+	margin-right: 60px;
+	margin-left: 40px;
+}
+
+.image1 img[src="images/73835_464232804529_3689907_n.jpeg"] {
+	border: 2px solid rgb(218, 215, 215);
+	display: block;
+	border-radius: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	padding: 5px;
+	width: 550px;
+}
+
+h2,
+h3 {
+	color: rgb(223, 190, 8);
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+h4 {
+	font-size: 22px;
+	background-color: rgb(3, 3, 3, 0.8);
+	border-radius: 8px;
+	max-width: max-content;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+ul {
+	background: rgb(51, 51, 51, 0.8);
+	border-radius: 3px;
+	list-style: none;
+	padding: 5px;
+	margin-right: 100px;
+}
+
+li {
+	padding: 20px;
+	background: rgb(201, 4, 4);
+	margin: 20px;
+	border-radius: 3px;
+}
+
+svg {
+	width: 26px;
+	height: 26px;
+}
+
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(3, 3, 3);
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	cursor: pointer;
+}
+
+a:hover {
+	color: rgb(243, 236, 236);
+}
+
+.second {
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+.collapsible {
+	cursor: pointer;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: whitesmoke;
+	background-color: rgb(36, 85, 82);
+	border: solid;
+	border-radius: 3px;
+	padding: 15px;
+	width: 90.5%;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+.active,
+.collapsible:hover {
+	background-color: rgb(173, 147, 147);
+}
+
+.content {
+	background-color: rgb(173, 147, 147);
+	text-align: center;
+	margin-top: 1px;
+	padding: 10px;
+	margin-right: 80px;
+	margin-left: 60px;
+	border-radius: 3px;
+	display: none;
+	overflow: hidden;
+	width: 89%;
+}

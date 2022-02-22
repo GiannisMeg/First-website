@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+    <title>About Giannis Megoulas</title>
+</head>
+<body>
+       <div class= "header">
+           <h1> < "Hello, Gianni Megoula!"./> </h1>
+
+       </div>
+
+        <div class="image1">
+            <img  src="images/73835_464232804529_3689907_n.jpeg" alt="Me and my best friends a winter day in the mountain" >
+        </div>
+       
+        <div class="m-wrapper">
+
+            <p>" The world knows me as <strong>Giannis Megoulas</strong> an optimistic and positive person,
+            Greece is where i' m coming from and Amsterdam the city where i leave. "</p>
+
+            <button type="button" class="collapsible">Wanna know something cool about me?</button>
+                <div class="content" style="display: none;">
+                    <p>I can type 150 words per minute!!!</p>
+                </div>
+         
+            <button type="button" class="collapsible">My current goal is . . .?</button>
+                <div class="content" style="display: none;">
+                    <p>To become a successful front-end developer!</p>
+                </div>
+
+                <script>
+                    const coll = document.getElementsByClassName("collapsible");
+                    let i;
+                    
+                    for (i = 0; i < coll.length; i++) {
+                      coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        let content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                          content.style.display = "none";
+                        } else {
+                          content.style.display = "block";
+                        }
+                      });
+                    }
+                </script>
+                
+
+            
+            <h2>Changing Career Path</h2>
+
+         
+            <p class="first"> My biggest passion always have been to work in the tech industry.<br>
+            I'm crazy about gadgets , mobile phones and the hole pc world.<br>
+            I used to work as an executive-chef but i decide to change job career and follow my hart.</p>
+         
+             <article>
+                    <h3>⭐  Personal Favorites </h3>
+
+                    <ul class="second">
+                
+                        <li>  < Coding for life > </li>
+                
+                        <li> < Motorbike Road trips ! > </li>
+                
+                        <li> < Cooking like a pro > </li>
+                
+                        <li> < Reading books > </li>
+                        
+                    </ul>
+
+                </article>
+
+        </div>
+        
+    <hr/>
+        
+    <footer>
+        <h4>Contact Me</h4>
+
+            <div class="footer">
+                
+                <nav>
+                    
+                    <a href="https://www.facebook.com/giannis.megoulas/" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/>
+                        Facebook</a>
+                        
+                    <a href="https://www.linkedin.com/in/giannis-megoulas-aa76b266/" target="_blank"> <img src="https://img.icons8.com/metro/26/000000/linkedin.png"/>
+                            LinkedIn</a>
+                            
+                     <a href="https://github.com/GiannisMeg" target="_blank"><svg type="color-fill-current" width="20px" height="20px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="ScSvg-sc-1j5mt50-1 kMNUwy"><g><path fill-rule="evenodd" d="M10 1a9 9 0 00-2.845 17.54c.45.083.614-.195.614-.434 0-.213-.007-.78-.012-1.53-2.503.543-3.031-1.207-3.031-1.207-.41-1.04-1-1.317-1-1.317-.817-.558.062-.547.062-.547.903.064 1.378.928 1.378.928.803 1.375 2.107.978 2.62.748.082-.582.314-.978.57-1.203-1.997-.227-4.1-1-4.1-4.448 0-.983.352-1.787.928-2.415-.093-.228-.402-1.144.089-2.382 0 0 .755-.242 2.474.922A8.62 8.62 0 0110 5.352a8.63 8.63 0 012.253.303c1.719-1.164 2.473-.922 2.473-.922.49 1.238.182 2.154.09 2.382.577.628.925 1.432.925 2.415 0 3.457-2.105 4.218-4.11 4.44.323.278.61.828.61 1.667 0 1.203-.01 2.174-.01 2.469 0 .24.163.521.619.433A9 9 0 0010 1z" clip-rule="evenodd"></path></g></svg>
+                                Github</a>
+                            
+                                <a href="mailto:megoulas2@hotmail.com" target="_blank">📧 megoulas2@hotmail.com</a>
+           
+                           </nav>  
+                            
+                        </div>
+            </div>
+        </footer>
+        
+    
+        <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
